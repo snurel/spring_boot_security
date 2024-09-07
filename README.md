@@ -8,8 +8,6 @@ This is a simple Spring Boot application that demonstrates the integration of Sp
 - Spring Security 6.x.x
 - User authentication and authorization
 - Secured endpoints
-- Form-based login
-- Role-based access control
 - PostgreSQL for database management
 
 ## Requirements
