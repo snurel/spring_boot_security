@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Manchester United",
+    "stadiumCapacity": 74000,
+    "stadiumName": "Old Trafford"
+  },
+  {
+    "id": 2,
+    "name": "Real Madrid",
+    "stadiumCapacity": 81044,
+    "stadiumName": "Santiago Bernabéu"
+  },
+  {
+    "id": 3,
+    "name": "FC Barcelona",
+    "stadiumCapacity": 99354,
+    "stadiumName": "Camp Nou"
+  },
+  {
+    "id": 4,
+    "name": "Bayern Munich",
+    "stadiumCapacity": 75000,
+    "stadiumName": "Allianz Arena"
+  },
+  {
+    "id": 5,
+    "name": "Paris Saint-Germain",
+    "stadiumCapacity": 47929,
+    "stadiumName": "Parc des Princes"
+  },
+  {
+    "id": 6,
+    "name": "Juventus",
+    "stadiumCapacity": 41507,
+    "stadiumName": "Allianz Stadium"
+  },
+  {
+    "id": 7,
+    "name": "Chelsea",
+    "stadiumCapacity": 41837,
+    "stadiumName": "Stamford Bridge"
+  },
+  {
+    "id": 8,
+    "name": "Liverpool",
+    "stadiumCapacity": 53394,
+    "stadiumName": "Anfield"
+  },
+  {
+    "id": 9,
+    "name": "AC Milan",
+    "stadiumCapacity": 80018,
+    "stadiumName": "San Siro"
+  },
+  {
+    "id": 10,
+    "name": "Borussia Dortmund",
+    "stadiumCapacity": 81365,
+    "stadiumName": "Signal Iduna Park"
+  }
+]

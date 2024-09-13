@@ -18,10 +18,6 @@ public class TeamMapper {
     }
 
     public Team toTeam(AddTeamRequest request) {
-        if(request == null) {
-            throw new IllegalArgumentException("AddTeamRequest cannot be null");
-        }
-
         return Team.builder()
                 .name(request.getName())
                 .stadiumName(request.getStadiumName())

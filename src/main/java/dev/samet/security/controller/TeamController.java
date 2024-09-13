@@ -23,6 +23,10 @@ public class TeamController {
     @GetMapping("/")
     public ResponseEntity<List<TeamDto>> getTeams(){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if(authentication == null){
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        }
+
         String username = authentication.getName();
         System.out.println("Request made by: " + username);
 

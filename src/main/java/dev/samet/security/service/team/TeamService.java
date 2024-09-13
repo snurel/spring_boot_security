@@ -13,7 +13,6 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-@Log4j
 public class TeamService implements ITeamService {
     private final TeamRepository teamRepository;
     private final TeamMapper teamMapper;
@@ -27,6 +26,10 @@ public class TeamService implements ITeamService {
     @Override
     public TeamDto addTeam(AddTeamRequest request) throws RuntimeException {
         try {
+            if(request == null) {
+                throw new IllegalArgumentException("AddTeamRequest cannot be null");
+            }
+
             Team team = toTeam(request);
             Team saved = teamRepository.save(team);
             return toTeamDto(saved);
