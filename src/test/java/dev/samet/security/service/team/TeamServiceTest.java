@@ -55,7 +55,7 @@ class TeamServiceTest {
                 .build();
 
         when(teamMapper.toTeam(addTeamRequest)).thenReturn(team);
-        when(teamRepository.save(any(Team.class))).thenReturn(savedTeam);
+        when(teamRepository.save(team)).thenReturn(savedTeam);
         when(teamMapper.toTeamDto(savedTeam)).thenReturn(teamDto);
 
         TeamDto result = teamService.addTeam(addTeamRequest);
