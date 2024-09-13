@@ -4,12 +4,10 @@ This is a simple Spring Boot application that demonstrates the integration of Sp
 
 ## Features
 
-- Spring Boot 3.x.x
+- Spring Boot 3.2.10 (SNAPSHOT)
 - Spring Security 6.x.x
 - User authentication and authorization
 - Secured endpoints
-- Form-based login
-- Role-based access control
 - PostgreSQL for database management
 
 ## Requirements
